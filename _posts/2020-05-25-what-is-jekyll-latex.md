@@ -152,7 +152,7 @@ sharpening the axe.
 
 ## Images
 
-{% include image.liquid url="/assets/latex_image_example.jpeg" description="Mountain landscape by John Towner." %}
+{% include image.liquid url="/jekyll-latex/assets/latex_image_example.jpeg" description="Mountain landscape by John Towner." %}
 
 ```
 {% raw %}
