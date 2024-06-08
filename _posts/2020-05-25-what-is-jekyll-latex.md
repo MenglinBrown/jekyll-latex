@@ -157,7 +157,7 @@ sharpening the axe.
 ```
 {% raw %}
 {% include image.liquid
-    url="/assets/latex_image_example.jpeg"
+    url="/jekyll-latex/assets/latex_image_example.jpeg"
     description="Mountain landscape by John Towner."
 %}
 {% endraw %}
