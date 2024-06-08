@@ -4,27 +4,6 @@ author: John Doe
 layout: post
 ---
 
-{% abstract %}
-This project is called jekyll-latex. It allows you to write markdown posts using the Jekyll framework with the beautiful typography of <span class="latex">L<span>a</span>T<span>e</span>X</span> and the MathJax library so you can render gorgeous equations like this one below:
-$$ J(\theta) =\frac{1}{2m}
-[\sum^m_{i=1}(h_\theta(x^{(i)}) -
-y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
-{% endabstract %}
-
-```
-{% raw %}
-{% abstract %}
-This project is called jekyll-latex. It features the beautiful
-typography of <span class="latex">L<span>a</span>T<span>
-e</span>X</span> and it includes MathJax so you can render
-gorgeous equations like this one below:
-$$ J(\theta) =\frac{1}{2m}
-[\sum^m_{i=1}(h_\theta(x^{(i)}) -
-y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
-{% endabstract %}
-{% endraw %}
-```
-
 # Table of Contents
 * TOC
 {:toc}
@@ -36,51 +15,6 @@ y^{(i)})2 + \lambda\sum^n_{j=1}\theta^2_j $$
 {:toc}
 {% endraw %}
 ```
-
-# Theorems, Definitions, and Proofs
-
-{% theorem %}
-The real numbers $\mathbb{R}$ are uncountable
-{% endtheorem %}
-
-{% proof %}
-If $\mathbb{R}$ is countable, then [0, 1] is countable as well. Hence there exists a map
-C from $\mathbb{N}$ onto [0, 1] with $$C(n)=\sum_{i=1}^{\infty} c_{i}(n) 10^{-i}$$ where $c_{i}(n) \in\{0,1,
-\ldots, 9\},$
-are the digits in decimal expansion. Now consider a real
-number
-$$x=\sum_{i=1}^{\infty} \bar{c}_{i} 10^{-i} \in[0,1]$$
-with $\bar{c}_{i} \neq c_{i}(i)$. Obviously $C(n) \neq x$ for all $n \in \mathbb{N} .$ Hence $C$ is not onto. A
-contradiction.
-{% endproof %}
-
-<pre>
-<code>
-{% raw %}
-{% theorem %}
-{% endraw %}
-The real numbers $\mathbb{R}$ are uncountable
-{% raw %}
-{% endtheorem %}
-{% endraw %}
-
-{% raw %}
-{% proof %}
-{% endraw %}
-If $\mathbb{R}$ is countable, then [0, 1] is countable as well. Hence
-there exists a map C from $\mathbb{N}$ onto [0, 1] with
-$$C(n)=\sum_{i=1}^{\infty} c_{i}(n) 10^{-i}$$ where $c_{i}(n) \in\{0,1,
-\ldots, 9\},$
-are the digits in decimal expansion. Now consider a real number
-$$x=\sum_{i=1}^{\infty} \bar{c}_{i} 10^{-i} \in[0,1]$$
-with $\bar{c}_{i} \neq c_{i}(i)$. Obviously $C(n) \neq x$ for all $n \in
-\mathbb{N} .$ Hence $C$ is not onto. A contradiction.
-{% raw %}
-{% endproof %}
-{% endraw %}
-</code>
-</pre>
-
 
 # HTML Elements
 
